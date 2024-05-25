@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            green: '#c5f82a',
+            white: '#ffffff',
+            grey: '#333333',
+            darkGrey: '#1f1f1f',
+            offBlack: '#141414',
+          }
+        },
+        // screens: {
+        //   md: '376px',
+        // }
+      }
+    }
+  </script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    /* @font-face {
+      font-family: 'inter';
+      src: url('Inter-Regular.ttf');
+    } */
+    /* body{
+      font-family: inter;
+    } */
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body class="w-full h-screen flex flex-col justify-center items-center bg-offBlack font-[Inter] my-12">
+
+  <section class="w-[80%] sm:w-1/2 md:w-1/3 lg:w-[23rem] bg-darkGrey flex flex-col p-8 items-center rounded-lg text-white" >
+
+    <div class="mb-6 flex items-center justify-center">
+      <img src="./assets/images/avatar-jessica.jpeg" class="w-1/2 rounded-full">
+    </div>
+
+    <div class="text-center">
+      <h1 class="text-2xl ">Jessica Randall</h1>
+      <h2 class="text-sm text-green font-semibold mt-2 text-md">London, United Kingdom</h2>
+      <p class="text-sm my-6 text-[14px]">"Front-end developer and avid reader."</p>
+    </div>
+
+    <div class="flex flex-col w-full space-y-3 font-semibold">
+      <a href="#" class="w-full text-center p-4 bg-grey rounded-lg hover:bg-green hover:text-offBlack">GitHub</a>
+      <a href="#" class="w-full text-center p-4 bg-grey rounded-lg hover:bg-green hover:text-offBlack">Frontend Mentor</a>
+      <a href="#" class="w-full text-center p-4 bg-grey rounded-lg hover:bg-green hover:text-offBlack">LinkedIn</a>
+      <a href="#" class="w-full text-center p-4 bg-grey rounded-lg hover:bg-green hover:text-offBlack">Twitter</a>
+      <a href="#" class="w-full text-center p-4 bg-grey rounded-lg hover:bg-green hover:text-offBlack">Instagram</a>
+    </div>
+  </section>
+  
+  
+  <div class="attribution text-center text-white mt-2">
+    Challenge by <a class="font-[11px]" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
