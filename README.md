@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here]()
-- Live Site URL: [Social Links Profile](https://social-links-profile-brown-six.vercel.app/)
+- Live Site URL: [https://social-links-profile-brown-six.vercel.app](https://social-links-profile-brown-six.vercel.app/)
 
 ## My process
 
