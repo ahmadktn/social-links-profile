@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
+- Solution URL: [https://www.frontendmentor.io/solutions/social-links-profile-using-tailwind-css-Mu8ymICv8Q](https://www.frontendmentor.io/solutions/social-links-profile-using-tailwind-css-Mu8ymICv8Q)
 - Live Site URL: [https://social-links-profile-brown-six.vercel.app](https://social-links-profile-brown-six.vercel.app/)
 
 ## My process
